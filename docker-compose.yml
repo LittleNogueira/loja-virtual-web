@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  loja-virtual-web:
+    build:
+      context: .
+      dockerfile: ./docker/angular.dockerfile
+    container_name: loja-virtual-web
+    ports:
+      - "4200:4200"
