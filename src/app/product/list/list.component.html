@@ -1,0 +1,25 @@
+<div class="container" >
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+        <a routerLink="/form" class="btn btn-primary text-white">Cadastrar</a>
+        </div>
+        <input #search (keyup)="0" type="text" class="form-control" placeholder="Pesquisar por titulo" >
+    </div>
+
+    <div class="row" >
+
+        <app-card class="col-md-4" *ngFor="let product of products | filterProduct:search.value" image="{{product.url}}" title="{{product.name}}" >
+            <p class="card-text">{{product.description}}</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button [routerLink]="['/form',product.id]" class="btn btn-sm btn-outline-primary"><i class="fas fa-edit"></i> Editar</button>
+                    <button (click)="delete(product)" class="btn btn-sm btn-outline-danger">Remover <i class="far fa-trash-alt" ></i></button>
+                </div>
+                <small class="text-muted">R$ {{product.value}}</small>
+            </div>
+        </app-card>
+    
+    </div>
+
+</div>
