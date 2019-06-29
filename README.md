@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-A Loja Virtual é um projeto (Single Page Application) que utiliza Angular 5 e Bootstrap 4, que consome a API Rest <a href="https://github.com/LittleNogueira/loja-virtual-core" target="_blank" >Loja Virtual API Rest</a>, que foi desenvolvida em Spring Boot 2 usando Maven.
+A Loja Virtual é um projeto (Single Page Application) que utiliza Angular e Bootstrap 4, que consome a API Rest <a href="https://github.com/LittleNogueira/loja-virtual-core" target="_blank" >Loja Virtual API Rest</a>, que foi desenvolvida em Spring Boot 2 usando Maven.
 
 ## Intruções para configuração
 
