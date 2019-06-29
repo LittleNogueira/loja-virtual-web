@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-  loja-virtual-web:
+  angular:
     build:
       context: .
       dockerfile: ./docker/angular.dockerfile
