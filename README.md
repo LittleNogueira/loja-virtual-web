@@ -1,27 +1,50 @@
-# LojaVirtualWeb
+# LojaVirtual Cliente
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.4.
+## Sobre o projeto
 
-## Development server
+A Loja Virtual é um projeto (Single Page Application) que utiliza Angular 5 e Bootstrap 4, que consome a API Rest <a href="https://github.com/LittleNogueira/loja-virtual-core" target="_blank" >Loja Virtual API Rest</a>, que foi desenvolvida em Spring Boot 2 usando Maven.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Intruções para configuração
 
-## Code scaffolding
+Necessário ter a API iniciada. -> Siga as intruções para instalar e inicar a <a href="https://github.com/LittleNogueira/loja-virtual-core" target="_blank" >Loja Virtual API Rest</a>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+Requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- <a href="https://nodejs.org/en/" target="_blank" >Node<a/>
+- <a href="https://www.npmjs.com/get-npm" target="_blank" >NPM</a>
 
-## Running unit tests
+Instale 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+$ npm install -g @angular/cli
+```
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Baixe o projeto
+```
+$ git clone https://github.com/LittleNogueira/loja-virtual.git
+```
+```
+$ cd /camimho/do/projeto/loja-virtual
+```
+```
+$ npm install
+$ ng serve
+```
 
-## Further help
+E acesse a url <a href="http://localhost:4200" target="_blank">http://localhost:4200</a> e o aplicativo estara pronto pra uso.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Sobre as tecnologias
+
+#### Angular
+
+Angular é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript liderado pela Equipe Angular do Google e por uma comunidade de indivíduos e corporações.
+
+#### NPM
+
+NPM é o gerenciador de pacotes para Node.js . Foi criado em 2009 como um projeto de código aberto para ajudar os desenvolvedores de JavaScript a compartilhar facilmente módulos de código compactados.
+
+#### Bootstrap
+
+Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.
