@@ -13,13 +13,15 @@ Requisitos
 
 - <a href="https://nodejs.org/en/" target="_blank" >Node<a/>
 - <a href="https://www.npmjs.com/get-npm" target="_blank" >NPM</a>
+- <a href="https://www.npmjs.com/get-npm" target="_blank" >NPM</a>
 
-Para subir todo o sistema usando o docker basta seguir os passos abaixo, ao executar o comando o docker-compose ira um container para subir o nosso front-end, baseado em uma imagem node. 
+Para subir todo o sistema usando o docker basta seguir os passos abaixo, ao executar o comando o docker-compose ira subir o nosso front-end, baseado em uma imagem node. 
 
 ```
  cd /caminho/do/projeto/loja-virtual-web/
  docker-compose up -d
 ```
+E acesse a url http://localhost:4200 e o aplicativo estara pronto pra uso.
 
 Caso voce queira subir o sistema da maneira tradicional basta seguir o tutorial abaixo
 
