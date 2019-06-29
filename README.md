@@ -14,21 +14,20 @@ Requisitos
 - <a href="https://nodejs.org/en/" target="_blank" >Node<a/>
 - <a href="https://www.npmjs.com/get-npm" target="_blank" >NPM</a>
 
+Para subir todo o sistema usando o docker basta seguir os passos abaixo, ao executar o comando o docker-compose ira um container para subir o nosso front-end, baseado em uma imagem node. 
+
+```
+ cd /caminho/do/projeto/loja-virtual-web/
+ docker-compose up -d
+```
+
+Caso voce queira subir o sistema da maneira tradicional basta seguir o tutorial abaixo
+
 Instale 
 
 ```
 $ npm install -g @angular/cli
-```
-
-
-Baixe o projeto
-```
-$ git clone https://github.com/LittleNogueira/loja-virtual.git
-```
-```
-$ cd /camimho/do/projeto/loja-virtual
-```
-```
+$ cd /camimho/do/projeto/loja-virtual-web
 $ npm install
 $ ng serve
 ```
