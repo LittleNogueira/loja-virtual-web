@@ -13,8 +13,9 @@ Requisitos
 
 - <a href="https://nodejs.org/en/" target="_blank" >Node<a/>
 - <a href="https://www.npmjs.com/get-npm" target="_blank" >NPM</a>
-- <a href="https://www.npmjs.com/get-npm" target="_blank" >NPM</a>
-
+- <a href="https://docs.docker.com/docker-for-windows/install/" target="_blank" >Docker</a>
+- <a href="https://docs.docker.com/compose/install/" target="_blank" >Docker compose</a>
+  
 Para subir todo o sistema usando o docker basta seguir os passos abaixo, ao executar o comando o docker-compose ira subir o nosso front-end, baseado em uma imagem node. 
 
 ```
